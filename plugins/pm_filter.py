@@ -2078,7 +2078,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+            InlineKeyboardButton('𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐠𝐫𝐨𝐮𝐩', url=GRP_LNK),
             InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Jiocinemaofflicial")
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
