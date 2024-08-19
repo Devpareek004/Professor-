@@ -2300,13 +2300,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "shortlink_info":
             btn = [[
-                InlineKeyboardButton("👇Select Your Language 👇", callback_data="laninfo")
-        ], [
-            InlineKeyboardButton("English", callback_data="english_info")
-        ], [
-            InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
-
-            ]]
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Jiocinemaofflicial"),
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
+                  ]]
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
