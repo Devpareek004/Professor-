@@ -2298,7 +2298,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-            ]]
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
