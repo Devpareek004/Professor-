@@ -77,7 +77,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopnelink001/18')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+KkiJxjEDnlU5MjJl') # Support Chat Link Without https:// or @
 
 # True Or False
-AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
+AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', False ))
 PM_SEARCH = bool(environ.get('PM_SEARCH', False ))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
