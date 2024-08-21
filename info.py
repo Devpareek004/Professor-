@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'samra')
 API_ID = int(environ.get('API_ID', '24942826'))
 API_HASH = environ.get('API_HASH', 'e3e2f3b65ef58634139ccd27d6b7d8cb')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7453674332:AAHbLbEBhVtRGl9xNtAtOOoHyqkD6HUytoI")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7453674332:AAE0HjfVlhbx5xL2bn3FAzOD3KFLHYL5d64")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -31,8 +31,8 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002245108673'))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7375753854').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002186203939 -1001869483190 -1002191230586').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7375753854 6914788581 ').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002186203939 -1001869483190 -1002191230586 -1002191230586').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '7375753854').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
