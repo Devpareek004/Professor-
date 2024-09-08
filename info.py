@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'samra')
 API_ID = int(environ.get('API_ID', '24942826'))
 API_HASH = environ.get('API_HASH', 'e3e2f3b65ef58634139ccd27d6b7d8cb')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7453674332:AAE5lj3HZWI2OQd1zygBadrXdk3v0dpY4IU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7453674332:AAEVJU6UJd7XL_JaUEboQMJgoRpqv83kMNk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -71,7 +71,7 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+swVCuJvmFykwODdl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+2hgaKXlzZDE5ZGI1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+XwzVvi5fd01iYTI1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopnelink001/18')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+KkiJxjEDnlU5MjJl') # Support Chat Link Without https:// or @
