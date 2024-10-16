@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'samra')
 API_ID = int(environ.get('API_ID', '24942826'))
 API_HASH = environ.get('API_HASH', 'e3e2f3b65ef58634139ccd27d6b7d8cb')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7453674332:AAEVJU6UJd7XL_JaUEboQMJgoRpqv83kMNk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7893550255:AAEWZEtxHLkaXklGnqAM7nPky_dqq6F-Kwo")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -51,9 +51,9 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://free:free@free.skktzb2.mongodb.net/?retryWrites=true&w=majority&appName=free")
-DATABASE_NAME = environ.get('DATABASE_NAME', "free")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'free')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://grouphelp:grouphelp@grouphelp.ccgqorv.mongodb.net/?retryWrites=true&w=majority&appName=grouphelp")
+DATABASE_NAME = environ.get('DATABASE_NAME', "free1")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'free1')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
